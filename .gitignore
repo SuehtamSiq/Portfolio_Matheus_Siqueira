@@ -1,0 +1,10 @@
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências do Node.js (caso tenha instalado pacotes)
+node_modules/
+
+# Ignorar arquivos de configuração de IDEs
+.vscode/
+.idea/
