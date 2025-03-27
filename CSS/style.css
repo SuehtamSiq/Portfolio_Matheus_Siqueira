@@ -1,5 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-body {
-    background-color: #999;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: #1f2937;
+}
+
+img{
+    object-fit: cover;
+}
+
+.btn{
+    border: 2px solid #1f2937;
+    background: #1f2937;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    color: #1f2937;
+    background: #fff;
+    border-color: #e5e7eb;
+}
+
+.btn--secondary{
+    color: #1f2937;
+    background: #fff;
+    border: 2px solid #e5e7eb;
+}
+
+.btn--secondary.btn:hover{
+    border-color: #1f2937;
+    background: #1f2937;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.navbar__logo{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.navbar__logo i{
+    font-size: 30px;
+}
+
+.navbar__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar__link{
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.5 ease;
+}
+
+.navbar__link:hover{
+    color: #000;
+}
+
+.navbar__actions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__location h5{
+    font-weight: 500;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.navbar__location p{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.navbar__actions .btn{
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
