@@ -16,6 +16,10 @@ img{
     object-fit: cover;
 }
 
+body{
+    background: #f3f4f6;
+}
+
 .btn{
     border: 2px solid #1f2937;
     background: #1f2937;
@@ -382,5 +386,80 @@ img{
 
 .project-card .btn:hover{
     background: #000;
+}
+
+.career {
+    background: #f3f4f6;
+    padding: 60px 60px 80px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between; /* Garante que as colunas se distribuam corretamente */
+}
+
+.career__jobs, 
+.career__awards {
+    width: 48%;  /* Ajustando para garantir que as colunas caibam lado a lado */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.career h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.job,
+.award{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.job i,
+.award div i {
+    font-size: 20px;
+    padding: 10px;
+    background: #fff; /* Fundo branco */
+    border-radius: 10px; /* Borda arredondada */
+    font-weight: bold;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 2px solid #e5e7eb; /* Borda suave para contraste */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+
+.award{
+    justify-content: space-between;
+}
+
+.award > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.job__info h5,
+.award__info h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.job__info h5 span,
+.award__info h5 span{
+    font-weight: 600;
+}
+
+
+.job__info p,
+.award__info p{
+    font-size: 13;
+    color: #6b7280;
+    font-weight: 500;
+}.award a i{
+    font-size: 24px;
 }
 
