@@ -201,13 +201,13 @@ body{
     padding-right: 80px;
 }
 
-.skills_desc h3{
+.skills__desc h3{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.skills_desc p{
+.skills__desc p{
     color: #6b7280;
     font-size: 14px;
     margin-bottom: 30px;
