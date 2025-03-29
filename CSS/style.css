@@ -192,22 +192,22 @@ body{
     gap: 40px;
 }
 
-.skills_description,
+.skills_desc,
 .skills__stats{
     width: 50%;
 }
 
-.skills_description{
+.skills_desc{
     padding-right: 80px;
 }
 
-.skills_description h3{
+.skills_desc h3{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.skills_description p{
+.skills_desc p{
     color: #6b7280;
     font-size: 14px;
     margin-bottom: 30px;
@@ -527,3 +527,183 @@ body{
     font-weight: 500;
 }
 
+@media screen and (max-width: 1230px) {
+    .hero__image{
+        width: 100%;
+    }
+
+    .hero__content h2{
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .hero__intro h3{
+        font-size: 30px;
+    }
+
+    .hero__intro p{
+        font-size: 15px;
+    }
+
+    .skills__desc{
+        padding-right: 20px;
+    }
+
+    .skills__desc h3{
+        font-size: 26px;
+    }
+
+    .skills__stats i{
+        font-size: 50px;
+    }
+
+    .skill__info h5{
+        font-size: 20px;
+    }
+
+    .skill__info p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .category__title{
+        width: 40%;
+    }
+
+    .category__desc{
+        width: 60%;
+    }
+
+    .category__projects{
+        flex-wrap: wrap;
+    }
+
+    .project-card{
+        width: 48%;
+    }
+
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    .navbar{
+        padding: 20px 30px;
+    }
+
+    .hero{
+        padding: 100px 30px 40px;
+    }
+
+    .hero__intro h3{
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .hero__intro p{
+        font-size: 13px;
+    }
+
+    .hero__socials{
+        top: 6%;
+    }
+
+    .skills{
+        flex-direction: column;
+        padding: 60px 30px 80px;
+    }
+
+    .skills__desc,
+    .skills__stats,
+    .category__title,
+    .category__desc,
+    .career__jobs,
+    .career__awards{
+        width: 100%;
+    }
+
+    .skills__desc{
+        padding-right: 0;
+    }
+
+    .showcase{
+        padding: 80px 30px 100px;
+    }
+
+    .category__header{
+        flex-direction: column;
+    }
+
+    .category__title{
+        margin-bottom: 20px;
+    }
+
+    .career{
+        padding: 60px 30px 80px;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer{
+        padding: 20px 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar__actions{
+        display: none;
+    }
+
+    .hero{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 30px 0px;
+        gap: 30px;
+    }
+
+    .hero__content,
+    .hero__intro{
+        width: 100%;
+    }
+
+    .hero__content h2{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .hero__socials{
+        position: relative;
+        flex-direction: row;
+        right: auto;
+        margin-top: 10px;
+    }
+
+    .showcase__header h3{
+        font-size: 24px;
+    }
+
+    .category__title h4{
+        font-size: 20px;
+    }
+
+    .project-card{
+       width: 100%;
+       height: 500px; 
+    }
+
+    .project-card__image{
+        height: 300px;
+    }
+
+    .carrer h3{
+        font-size: 26px;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+}
