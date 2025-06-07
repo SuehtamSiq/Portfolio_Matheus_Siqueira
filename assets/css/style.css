@@ -708,3 +708,52 @@ body{
     }
 
 }
+
+.skills-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.skills-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.skill-group {
+  margin-bottom: 2rem;
+}
+
+.skill-group h3 {
+  color: #7c3aed;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.skill-group ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.skill-group ul li {
+  flex: 1 1 45%;
+  background-color: #f1f5f9;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: #1e293b;
+  font-size: 0.95rem;
+  border-left: 4px solid #c4b5fd;
+}
