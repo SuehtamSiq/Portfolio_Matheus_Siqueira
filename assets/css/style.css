@@ -733,10 +733,14 @@ body{
 }
 
 .skill-group h3 {
-  color: #7c3aed;
+  color: #1f2937;
   font-size: 1.25rem;
   margin-bottom: 1rem;
   font-weight: 500;
+}
+
+.skill-group h3 i {
+  margin-right: 0.5rem;
 }
 
 .skill-group ul {
